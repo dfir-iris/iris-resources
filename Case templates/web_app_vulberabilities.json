@@ -1,0 +1,62 @@
+{
+    "name": "WebAppVulnerability",
+    "display_name": "Web Application Vulnerability",
+    "description": "A case template for handling web application vulnerability incidents",
+    "author": "DFIR-IRIS",
+    "title_prefix": "[WEBAPP]",
+    "summary": "Investigation and mitigation of a web application vulnerability",
+    "tags": ["web application", "vulnerability"],
+    "classification": "intrusion:application-compromise",
+    "tasks": [
+      {
+        "title": "Identify vulnerable components",
+        "description": "Determine the scope of the vulnerability by identifying affected components and systems",
+        "tags": ["components", "scope"]
+      },
+      {
+        "title": "Assess risk",
+        "description": "Evaluate the potential impact and likelihood of exploitation of the vulnerability",
+        "tags": ["risk", "assessment"]
+      },
+      {
+        "title": "Develop mitigation plan",
+        "description": "Create a plan to mitigate the vulnerability, including patching or applying other security measures",
+        "tags": ["mitigation", "plan"]
+      },
+      {
+        "title": "Implement mitigation",
+        "description": "Apply patches or other security measures according to the mitigation plan",
+        "tags": ["implementation", "patching"]
+      },
+      {
+        "title": "Monitor for exploitation attempts",
+        "description": "Monitor logs and other data sources for signs of exploitation attempts targeting the vulnerability",
+        "tags": ["monitoring", "exploitation"]
+      },
+      {
+        "title": "Update security measures",
+        "description": "Implement and update security measures to prevent future vulnerabilities",
+        "tags": ["security", "prevention"]
+      }
+    ],
+    "note_groups": [
+      {
+        "title": "Web application vulnerability details",
+        "notes": [
+          {
+            "title": "Vulnerability description",
+            "content": "Details of the web application vulnerability"
+          },
+          {
+            "title": "Affected components",
+            "content": "List of affected components and systems"
+          },
+          {
+            "title": "Mitigation steps",
+            "content": "Summary of the steps taken to mitigate the vulnerability"
+          }
+        ]
+      }
+    ]
+  }
+  

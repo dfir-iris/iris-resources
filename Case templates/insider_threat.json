@@ -1,0 +1,57 @@
+{
+    "name": "InsiderThreat",
+    "display_name": "Insider Threat",
+    "description": "A case template for handling insider threat incidents",
+    "author": "DFIR-IRIS",
+    "title_prefix": "[INSIDER]",
+    "summary": "Investigation and mitigation of an insider threat",
+    "tags": ["insider threat", "employee"],
+    "classification": "other:other",
+    "tasks": [
+      {
+        "title": "Identify suspicious activity",
+        "description": "Determine the scope of the suspicious activity and affected resources",
+        "tags": ["activity", "scope"]
+      },
+      {
+        "title": "Gather evidence",
+        "description": "Collect logs, emails, and other relevant data to establish a timeline and identify involved parties",
+        "tags": ["evidence", "logs"]
+      },
+      {
+        "title": "Secure affected resources",
+        "description": "Secure affected resources by changing access controls and revoking credentials",
+        "tags": ["security", "access"]
+      },
+      {
+        "title": "Interview involved parties",
+        "description": "Interview the suspected insider and any potential witnesses to gather more information",
+        "tags": ["interview", "witnesses"]
+      },
+      {
+        "title": "Implement security improvements",
+        "description": "Implement and update security measures to prevent future insider threats",
+        "tags": ["security", "prevention"]
+      }
+    ],
+    "note_groups": [
+      {
+        "title": "Insider threat details",
+        "notes": [
+          {
+            "title": "Suspicious activity",
+            "content": "Details of the suspicious activity that led to the investigation"
+          },
+          {
+            "title": "Evidence collected",
+            "content": "Summary of the evidence collected during the investigation"
+          },
+          {
+            "title": "Interview outcomes",
+            "content": "Summary of the interviews conducted during the investigation"
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,53 @@
+{
+    "name": "DataBreach",
+    "display_name": "Data Breach",
+    "description": "A case template for handling data breach incidents",
+    "author": "DFIR-IRIS",
+    "title_prefix": "[DATABREACH]",
+    "summary": "Investigation and mitigation of a data breach",
+    "tags": ["data breach", "privacy"],
+    "classification": "information-content-security:Unauthorised-information-access",
+    "tasks": [
+      {
+        "title": "Identify compromised data",
+        "description": "Determine the scope of the breach by identifying affected data and systems",
+        "tags": ["data", "scope"]
+      },
+      {
+        "title": "Contain the breach",
+        "description": "Secure compromised systems and prevent further unauthorized access",
+        "tags": ["containment", "access"]
+      },
+      {
+        "title": "Investigate the breach",
+        "description": "Perform a thorough investigation to determine the root cause of the breach",
+        "tags": ["investigation", "root cause"]
+      },
+      {
+        "title": "Notify affected parties",
+        "description": "Notify affected individuals and relevant authorities about the breach",
+        "tags": ["notification", "compliance"]
+      },
+      {
+        "title": "Implement security improvements",
+        "description": "Implement and update security measures to prevent future breaches",
+        "tags": ["security", "prevention"]
+      }
+    ],
+    "note_groups": [
+      {
+        "title": "Data breach details",
+        "notes": [
+          {
+            "title": "Compromised data",
+            "content": "Details of the data compromised in the breach"
+          },
+          {
+            "title": "Root cause",
+            "content": "Summary of the root cause of the data breach"
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,76 @@
+{
+    "name": "RansomwareAttack",
+    "display_name": "Ransomware Attack",
+    "description": "A case template for handling ransomware incidents",
+    "author": "DFIR-IRIS",
+    "title_prefix": "[RANSOMWARE]",
+    "summary": "Investigation and mitigation of a ransomware attack",
+    "classification": "malicious-code:ransomware",
+    "tags": ["ransomware", "malware"],
+    "tasks": [
+      {
+        "title": "Identify infected systems",
+        "description": "Determine the scope of the infection by identifying affected systems and users",
+        "tags": ["infection", "scope"]
+      },
+      {
+        "title": "Contain the infection",
+        "description": "Isolate infected systems and disable network shares to prevent further spread",
+        "tags": ["containment", "network"]
+      },
+      {
+        "title": "Analyze ransomware",
+        "description": "Perform malware analysis to gather information about the ransomware and its behavior. Extract IOCs and loopback on identification",
+        "tags": ["analysis", "malware"]
+      },
+      {
+        "title": "Restore from backups",
+        "description": "Restore affected systems and data from secure backups",
+        "tags": ["recovery", "backups"]
+      },
+      {
+        "title": "Update security measures",
+        "description": "Implement and update security measures to prevent future attacks",
+        "tags": ["security", "prevention"]
+      }, 
+      {
+        "title": "Report to authorities",
+        "description": "Report the incident to the relevant authorities",
+        "tags": ["reporting", "authorities"]
+      },
+      {
+        "title": "Lesson learned",
+        "description": "Document lessons learned and update the incident response plan",
+        "tags": ["lessons learned", "incident response plan"]
+      }
+    ],
+    "note_groups": [
+      {
+        "title": "Ransomware details",
+        "notes": [
+          {
+            "title": "Ransomware variant",
+            "content": "Details of the ransomware variant"
+          },
+          {
+            "title": "Ransomware behavior",
+            "content": "Summary of the ransomware's behavior"
+          }
+        ]
+      }, 
+      {
+        "title": "Communication",
+        "notes": [ 
+            {
+                "title": "Communication with stakeholders",
+                "content": "Summary of communication with stakeholders"
+            },
+            {
+                "title": "Communication with authorities",
+                "content": "Summary of communication with authorities"
+            }
+        ]
+      }
+    ]
+  }
+  

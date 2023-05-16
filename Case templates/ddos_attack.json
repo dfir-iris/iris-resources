@@ -1,0 +1,57 @@
+{
+    "name": "DDoSAttack",
+    "display_name": "DDoS Attack",
+    "description": "A case template for handling DDoS attack incidents",
+    "author": "DFIR-IRIS",
+    "title_prefix": "[DDOS]",
+    "summary": "Investigation and mitigation of a DDoS attack",
+    "tags": ["DDoS", "network"],
+    "classification": "availability:ddos",
+    "tasks": [
+        {
+        "title": "Identify attack vector",
+        "description": "Determine the type and source of the DDoS attack",
+        "tags": ["vector", "source"]
+        },
+        {
+        "title": "Mitigate the attack",
+        "description": "Implement mitigation strategies such as traffic filtering or rate limiting",
+        "tags": ["mitigation", "traffic"]
+        },
+        {
+        "title": "Monitor network",
+        "description": "Monitor network traffic to ensure the attack has been successfully mitigated",
+        "tags": ["monitoring", "traffic"]
+        },
+        {
+        "title": "Investigate the attack",
+        "description": "Perform a thorough investigation to understand the motives and methods of the attacker",
+        "tags": ["investigation", "motives"]
+        },
+        {
+        "title": "Update defense mechanisms",
+        "description": "Implement and update defense mechanisms to prevent future DDoS attacks",
+        "tags": ["defense", "prevention"]
+        }
+    ],
+    "note_groups": [
+        {
+        "title": "DDoS attack details",
+        "notes": [
+            {
+            "title": "Attack vector",
+            "content": "Details of the DDoS attack vector"
+            },
+            {
+            "title": "Attack source",
+            "content": "Information about the source of the attack"
+            },
+            {
+            "title": "Mitigation strategies",
+            "content": "Summary of the strategies used to mitigate the attack"
+            }
+        ]
+        }
+    ]
+}
+  
